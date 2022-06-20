@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Preparation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================================Banner============================ -->
+    
+    <section class="banner">
+
+        <!-- Nav Bar -->
+    
+        <nav>
+            <div class="makeitlogo"><a href="index.html" style="text-decoration: none;"><em class="iq">IQ</em></a></div>
+            <div class="links">
+                <ul class="navul">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="html.html" class="activated">HTML</a></li>
+                    <li><a href="css.html">CSS</a></li>
+                    <li><a href="javascript.html">JavaScript</a></li>
+                    <li><a href="react.html">React</a></li>
+                    <li><a href="node.html">Node</a></li>
+                    <li><a href="express.html">Express</a></li>
+                    <li><a href="mongodb.html">MongoDB</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+                <div class="dropdown-content">
+                    <a href="html.html">HTML</a>
+                    <a href="css.html">CSS</a>
+                    <a href="javascript.html">JavaScript</a>
+                    <a href="react.html">React</a>
+                    <a href="node.html">Node</a>
+                    <a href="express.html">Express</a>
+                    <a href="mongodb.html">MongoDB</a>
+                </div>
+            </div>
+        </nav>
+
+    </section>
+
+
+    <!-- =================================================================== -->
+
+    <div class="maincontainer">
+        <br>
+        <h1 style="text-align: center; text-decoration: underline;">Conceptual Questions</h1>
+        <h2>1. Difference between div and span?</h2>
+        <div class="answer">
+            <p>
+                Div tag stands for division tag and it is block level element means it is bound to take the whole width of the
+                    screen. <br>
+                Span is a inline element means it only takes the space that is required for it. <br>
+                Div should be used to wrap the sections of a document, while span should be used to wrap
+                small partions of text or images.
+            </p>
+        </div>
+        <hr>
+    
+        <h2>2. Difference between Class and IDS?</h2>
+        <p>In HTML, the only difference between class and ID is that IDs are unique and can have only one ID.
+            on the otherhand classes are not unique we can use same class to multiple elements</p>
+    
+        <p>For ID: each page can have only one element with that ID. <br>
+            For Class : you can have multiple class to same element.</p>
+    
+        <hr>
+    
+        <h2>3. Self Closing Tags</h2>
+        <p>In HTML, A self closing tag is a type of tag that need not to be closed by closing tag means
+            there are no separate closing tags for it. Elements that dont have any content in it are called
+            empty tags. <br>
+            Examples:- img, br, hr
+        </p>
+        <hr>
+    
+        <h2>4. How many types of headings are there? </h2>
+        <p>There are six types of headings, where h1 has the highest priority and h6 is having lowest priority.</p>
+        <hr>
+    
+        <h2>5. Difference between block and inline element </h2>
+        <p>&#60;div style="background-color: aqua;"&#62; Hi &#60;/div&#62;</p>
+        <div style="background-color: aqua;">Hi</div>
+        &#60;span style="background-color: aqua;"&#62;Hi&#60;/span&#62;
+        <br>
+        <span style="background-color: aqua;">Hi</span>
+        <p>A block element always begins in a new line and extends to left and right and it take full width
+            of the screen or webpage. Browser automatically add some space (margin) before and after the
+            element. <br> Examples : div, h1 to h6, p, table, form etc.</p>
+        <p>An inline element does not begin on a new line, it takes only the space that is required or
+            necessary for it. <br> Examples :- span, anchor tag, img, input etc.</p>
+        <hr>
+    
+    
+        <h2>6. Difference between em and strong tag</h2>
+        <p>The strong and em tags are used for emphasizing parts of the text.</p>
+        <p>The strong tag is used to indicate strong importance or urgency of the text. If you want
+            your visitor to have a look at some text, you can use strong tag. <br>
+            The em tag is used to represent stress emphasis, when you read a emphasized text, you read it a
+            in different tone. <br>
+            em tags makes the text beautiful.</p>
+        <em>Hello, I am Aditya</em>
+        <br>
+        <hr>
+        <br>
+    
+        <h2>7. What are Attributes?</h2>
+        <p>In HTML, Attributes are special word which provides additional information about the
+            elements. It should always be written in lowercase letter as they are case sensitive. It should
+            always be applied with name and value pair. It should be written in a opening tag. We can add
+            multiple attributes to one element.</p>
+    
+        <br>
+        <hr><br>
+    
+        <h2>8. What is br tags ?</h2>
+        <p>In HTML, br tag is used to create a line break in a text. It is empty tag means it does
+            not need a closing tag. It should not be used much, div and span.</p>
+    
+        <br>
+        <hr><br>
+    
+        <h2>9. What are semantic tags </h2>
+        <p>Semantic tags or elements are those which tells browsers and developers about itself, examples
+            for this are table, form, footer, header, section, aside, article.</p>
+    
+        <br>
+        <hr><br>
+    
+        <h2>10. Difference between HTML tags and HTML elements?</h2>
+        <p>in HTML, tags are the starting and ending part of the HTML, they begin with "<" and ">" . whatever we write
+                inside "< >" this it called tags examples. &#60;p&#62;, &#60;img&#62;. Elements must have opening, content
+                and a closing tag. &#60;p&#62content&#60;/p&#62</p>
+
+        <br><hr><br>
+
+    </div>
+
+    <div class="maincontainer">
+        <h1 style="text-align: center; text-decoration: underline;">Implementation Questions</h1>
+        <br>
+        <h2 class="question">1.Write code to create an ordered list with roman numbers.</h2>
+        <div class="answer">
+            <div class="code">
+                <h3>Code for question</h3>
+                <p>
+                    &#60;ol type="I"&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;li&#62;Front-End&#60;/li&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;li&#62;Back-End&#60;/li&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;li&#62;Full-Stack&#60;/li&#62;<br>
+                    &#60;/ol>
+                </p>
+            </div>
+            <div class="result">
+                <h3 style="text-align: center;">Result for the code</h3>
+                <ol type="I">
+                    <li>Front-End</li>
+                    <li>Back-End</li>
+                    <li>Full-Stack</li>
+                </ol>
+            </div>
+        </div>
+        <br><hr><br>
+        <h2 class="question">2.Write code to create an unordered list with a circle.</h2>
+        <div class="answer">
+            <div class="code">
+                <h3>Code for question</h3>
+                <p>
+                    &#60;ul type="circle"&#62;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;li&#62;Front-End&#60;/li&#62;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;li&#62;Back-End&#60;/li&#62;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;li&#62;Full-Stack&#60;/li&#62;<br>
+                    &#60;/ul&#62;
+                </p>
+            </div>
+            <div class="result">
+                <h3 style="text-align: center;">Result for the code</h3>
+                <ul type="circle">
+                    <li>Front-End</li>
+                    <li>Back-End</li>
+                    <li>Full-Stack</li>
+                </ul>
+            </div>
+        </div>
+        <br><hr><br>
+        <h2 class="question">3.Write code to create a link to https://www.prepbytes.com .</h2>
+        <div class="answer">
+            <div class="code">
+                <h3 style="text-align: center;">Code for question</h3>
+                <p>
+                    &#60;a href="https://www.prepbytes.com/" target="_blank">Prepbytes&#62;&#60;/a&#62;
+                </p>
+            </div>
+            <div class="result">
+                <h3 style="text-align: center;">Result for the code</h3>
+                <a href="https://www.prepbytes.com/" target="_blank" style="text-align: center;">Prepbytes</a>
+            </div>
+        </div>
+        <br><hr><br>
+        <h2 class="question">4.Write a code to insert an image.</h2>
+        <div class="answer">
+            <div class="code">
+                <h3 style="text-align: center;">Code for question</h3>
+                <p>
+                    <h3>Image insertion using absolute URL</h3>
+                    &#60;img src="https://parade.com/wp-content/uploads/2020/01/dont-give-up-quotes.jpg" alt="Image Removed" height="150px" width="250px"&#62;
+                    <p style="background-color: rgb(255, 255, 255); margin-bottom: 0%;">.</p>
+                    <h3>Image insertion using relative URL</h3>
+                    &#60;img src="img.jpg" alt="image Removed" height="250px" width="150px"&#62;
+                </p>
+            </div>
+            <div class="result">
+                <h3 style="text-align: center;">Result for the code</h3>
+                <div class="resultarea">
+                    <div class="resultsubarea">
+                        <h3>Image insertion using absolute URL</h3>
+                        <img src="https://parade.com/wp-content/uploads/2020/01/dont-give-up-quotes.jpg" alt="Image Removed" height="auto" width="100%">
+                    </div>
+                    <div class="resultsubarea">
+                        <h3>Image insertion using relative URL</h3>
+                        <img src="img.jpg" alt="image Removed" height="auto" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><hr><br>
+        <h2 class="question">5.Write a code to create a 2*2 table: Table columns should be name, salary, and provide two entries for this.</h2>
+        <div class="answer">
+            <div class="code">
+                <h3 style="text-align: center;">Code for question</h3>
+                <p>
+                    &#60;table border="1"&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;tr&#62;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;t&#62;>Name&#60;/th&#62;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;th&#62;Salary&#60;/th&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;/tr&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;tr&#62;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;td&#62;Aditya&#60;/td&#62;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;td&#62;50,000&#60;/td&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;/tr&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;tr&#62;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;td&#62;Ra&#60;&#60;/td&#62;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;td&#62;70,000&#60;/td&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;/tr&#62;<br>
+                    &#60;/table&#62;<br>
+                </p>
+            </div>
+            <div class="result">
+                <h3 style="text-align: center;">Result for the code</h3>
+                    <table border="1">
+                        <tr>
+                            <th>Name</th>
+                            <th>Salary</th>
+                        </tr>
+                        <tr>
+                            <td>Aditya</td>
+                            <td>50,000</td>
+                        </tr>
+                        <tr>
+                            <td>Raj</td>
+                            <td>70,000</td>
+                        </tr>
+                    </table>
+            </div>
+        </div>
+        <br><hr><br>
+        <h2 class="question">6.Create a form containing input fields like name age email and contact</h2>
+        <div class="answer">
+            <div class="code" style="width: 60%;">
+                <h3 style="text-align: center;">Code for question</h3>
+                <p>
+                    &#60;form action=""&#62;
+                        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;label for="name">Name :&#60;/label&#62;&#60;br&#62;
+                        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;input type="text" name="name" value=""  id="" placeholder="Enter your Name"&#62;&#60;br&#62;
+                        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;label for="age">Age :&#60;/label&#62;&#60;br&#62;
+                        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;input type="number" name="age" value=""  id="" placeholder="Enter your Ang"&#62;&#60;br&#62;
+                        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;label for="Email">Email :&#60;/label&#62;&#60;br&#62;
+                        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;input type="email" name="Email" value=""  id="" placeholder="Enter your Email"&#62;&#60;br&#62;
+                        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;label for="contact">Contect :&#60;/label&#62;&#60;br&#62;
+                        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;input type="tel" name="contact" value=""  id="" placeholder="Enter your ontact"&#62;&#60;br&#62;
+                        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;br&#62;
+                        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;input type="submit" value="Submit"&#62;
+                    <br><br>&#60;/form&#62;
+                </p>
+            </div>
+            <div class="result" style="width: 35%;">
+                <h3 style="text-align: center;">Result for the code</h3>
+                <form action="">
+                    <label for="name">Name :</label><br>
+                    <input type="text" name="name" value=""  id="" placeholder="Enter your Name"><br>
+                    <label for="age">Age :</label><br>
+                    <input type="number" name="age" value=""  id="" placeholder="Enter your Ang"><br>
+                    <label for="Email">Email :</label><br>
+                    <input type="email" name="Email" value=""  id="" placeholder="Enter your Email"><br>
+                    <label for="contact">Contect :</label><br>
+                    <input type="tel" name="contact" value=""  id="" placeholder="Enter your ontact"><br>
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <br><hr><br>
+        <h2 class="question">7.Create a table and explain how to achieve colspan.</h2>
+        <div class="answer">
+            <div class="code">
+                <h3 style="text-align: center;">Code for question</h3>
+                <p>
+                    &#60;table border="1"&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;tr&#62;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;th&#62;Name&#60;/th&#62;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;th colspan="2"&#62;Designation&#60;/th&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;/tr&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;tr&#62;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;td&#62;Aditya&#60;/td&#62;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;td&#62;Full-Stack Developer&#60;/td&#62;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;td&#62;Software Developer&#60;/td&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;/tr&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;tr&#62;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;td&#62;Aditya&#60;/td&#62;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;td&#62;Full-Stack Developer&#60;/td&#62;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;td&#62;Software Developer&#60;/td&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;/tr&#62;<br>
+                    &#60;/table&#62;
+                </p>
+            </div>
+            <div class="result">
+                <h3 style="text-align: center;">Result for the code</h3>
+                <table border="1">
+                    <tr>
+                        <th>Name</th>
+                        <th colspan="2">Designation</th>
+                    </tr>
+                    <tr>
+                        <td>Aditya</td>
+                        <td>Full-Stack Developer</td>
+                        <td>Software Developer</td>
+                    </tr>
+                    <tr>
+                        <td>Aditya</td>
+                        <td>Full-Stack Developer</td>
+                        <td>Software Developer</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <br><hr><br>
+        <h2 class="question">8.Create a radio button (MERN, MEAN: course)and checkbox(HTML, CSS, React, Node: technology)
+            and explain the difference between the two</h2>
+        <div class="answer">
+            <div class="code" style="width: 60%;">
+                <h3 style="text-align: center;">Code for question</h3>
+                <p>
+                    &#60;form action=""&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;label for="Radio"&#62;Course&#60;/label&#62;&#60;br&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;input type="radio" name="course" id="" value="MERN"&#62;MERN &#60;br&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;input type="radio" name="course" id="" value="MEAN"&#62;MEAN &#60;br&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;br&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;label for="lang"&#62;Language&#60;/label&#62;&#60;br&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;input type="checkbox" value="HTML" name="lang1" id="" required&#62;HTML<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;input type="checkbox" value="CSS" name="lang2" id=""&#62;CSS<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;input type="checkbox" value="JS" name="lang3" id=""&#62;JS<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;input type="checkbox" value="React" name="lang4" id=""&#62;React<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;br&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;br&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;input type="submit" value="Submit"&#62;<br>
+                    &#60;/form&#62;
+                </p>
+            </div>
+            <div class="result" style="width: 35%;">
+                <h3 style="text-align: center;">Result for the code</h3>
+                <form action="">
+                    <label for="Radio"><b><u>Course</u></b></label><br>
+                    <input type="radio" name="course" id="" value="MERN">MERN <br>
+                    <input type="radio" name="course" id="" value="MEAN">MEAN <br>
+                    <br>
+                    <label for="lang"><b><u>Language</u></b></label><br>
+                    <input type="checkbox" value="HTML" name="lang1" id="" required>HTML
+                    <input type="checkbox" value="CSS" name="lang2" id="">CSS
+                    <input type="checkbox" value="JS" name="lang3" id="">JS
+                    <input type="checkbox" value="React" name="lang4" id="">React
+                    <br>
+                    
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div><br>
+            <p><b>
+                Checkboxes allow the user to choose items from a fixed number of alternatives, 
+                while radio buttons allow the user to choose exactly one item from a list of several predefined alternatives.
+            </b>
+            </p>
+        </div>
+        <br>
+
+    </div>
+
+<br>
+</body>
+</html>
